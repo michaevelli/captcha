@@ -21,6 +21,8 @@ Properties include
 ..* Density of Halves
 ..* Density of Quadrants
 
+UNSW COMP1511 17s1 ass1
+
 ## Usage
 To crack digit
 ```bash
