@@ -5,21 +5,21 @@ Crack numeric captcha. Approximately 90% success rate per digit
 "digit" folder contains example digits  
 "more" folder contains further digits which was not used to generate the data used to analyse  
 Analysis done by calculating properties of individual digits, then comparing values to the standard deviation and choosing the most matching digits  
-Properties include  
-..* Horizontal Balance
-..* Vertical Balance
-..* Tallness
-..* Density
-..* Holes
-..* Hole Fraction
-..* Hole Horizontal Balance
-..* Hole vertical Balance
-..* Hole Tallness
-..* Horizontal Intersections through center
-..* Vertical Intersections through center
-..* Amount of whitespace Left of digit
-..* Density of Halves
-..* Density of Quadrants
+Properties include
+* Horizontal Balance
+* Vertical Balance
+* Tallness
+* Density
+* Holes
+* Hole Fraction
+* Hole Horizontal Balance
+* Hole vertical Balance
+* Hole Tallness
+* Horizontal Intersections through center
+* Vertical Intersections through center
+* Amount of whitespace Left of digit
+* Density of Halves
+* Density of Quadrants
 
 UNSW COMP1511 17s1 ass1
 
