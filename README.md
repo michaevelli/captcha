@@ -25,17 +25,17 @@ UNSW COMP1511 17s1 ass1
 
 ## Usage
 To crack digit
-```bash
-$ gcc arrvalue.c attributes.c bounding_box.c captcha.c copy_pixels.c crack_digit.c  fakehole.c floodfill.c points.c print_image.c read_pbm.c -o crack_digit -lm
-$ ./crack_digit digit/0_00.pbm
+<pre>
+$ <b>gcc arrvalue.c attributes.c bounding_box.c captcha.c copy_pixels.c crack_digit.c  fakehole.c floodfill.c points.c print_image.c read_pbm.c -o crack_digit -lm</b>
+$ <b>./crack_digit digit/0_00.pbm</b>
 0
-```
+</pre>
 To crack captcha
-```bash
-$ gcc arrvalue.c attributes.c bounding_box.c captcha.c copy_pixels.c crack_captcha.c  fakehole.c floodfill.c points.c print_image.c read_pbm.c -o crack_captcha -lm
-$ ./crack_captcha captcha/0008.pbm
+<pre>
+$ <b>gcc arrvalue.c attributes.c bounding_box.c captcha.c copy_pixels.c crack_captcha.c  fakehole.c floodfill.c points.c print_image.c read_pbm.c -o crack_captcha -lm</b>
+$ <b>./crack_captcha captcha/0008.pbm</b>
 0008
-```
+</pre>
 
 ## Installation
 Compile with `gcc arrvalue.c attributes.c bounding_box.c captcha.c copy_pixels.c crack_digit.c  fakehole.c floodfill.c points.c print_image.c read_pbm.c -o crack_digit -lm` for cracking digits.  
